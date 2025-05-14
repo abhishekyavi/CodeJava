@@ -26,6 +26,7 @@ public class Functionalinterface {
 
         //--------------------------------------------
 
+        
         BiFunction<Integer, Integer, Integer> add = (a, b) -> a + b;
         System.out.println(add.apply(10, 20));
 
@@ -34,8 +35,6 @@ public class Functionalinterface {
 
         BiFunction<String, String, String> concat = (a, b) -> a + b;
         System.out.println(concat.apply("hello", " world"));
-
-        
 
     }
 
