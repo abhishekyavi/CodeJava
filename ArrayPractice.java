@@ -3,12 +3,12 @@ package CodeJava;
 public class ArrayPractice {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5 };
-        // revrseArray(arr);
-        // findLargestElement();
+        //revrseArray(arr);
+        findLargestElement();
         // sumofArray();
         // findOddnEven();
         // ifArraySorted();
-        findAllUniquePairs();
+        //findAllUniquePairs();
     }
 
     public static void revrseArray(int[] arr) {
